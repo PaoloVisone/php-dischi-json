@@ -21,10 +21,20 @@ require_once("./functions.php")
 
     <div id="content">
 
+
         <?php
 
         foreach ($dischi as $disco) {
-            echo "<h1>$disco->titolo</h1>";
+            echo "<div class='card'>
+                        <div class='card-img'>  
+                             <img src='{$disco->{"url della cover"}}' alt='$disco->titolo'>  
+                        </div>
+                        <div class='card-text'>
+                <h2>$disco->titolo</h2>
+                <p>$disco->artista</p>
+                   <p>{$disco->{"anno di pubblicazione"}} - $disco->genere</p> 
+            </div>
+        </div>";
         }
 
         ?>
