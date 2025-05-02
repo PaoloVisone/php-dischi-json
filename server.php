@@ -5,7 +5,7 @@ $file_json = file_get_contents('./dischi.json');
 // echo $file_json;
 
 // Decodifico il JSON in un array PHP
-$dischi = json_decode($file_json);
+$dischi = json_decode($file_json, true);
 
 // Ricavo i dati del form tramite POST
 $titolo = $_POST['titolo'] ?? '';
