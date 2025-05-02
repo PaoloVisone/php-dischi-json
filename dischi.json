@@ -2,36 +2,43 @@
     {
         "titolo": "Thriller",
         "artista": "Michael Jackson",
-        "url della cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+        "url della cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/55\/Michael_Jackson_-_Thriller.png",
         "anno di pubblicazione": "1982",
         "genere": "Pop"
     },
     {
         "titolo": "The Dark Side of the Moon",
         "artista": "Pink Floyd",
-        "url della cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+        "url della cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/3b\/Dark_Side_of_the_Moon.png",
         "anno di pubblicazione": "1973",
         "genere": "Progressive Rock"
     },
     {
         "titolo": "Back in Black",
-        "artista": "AC/DC",
-        "url della cover": "https://upload.wikimedia.org/wikipedia/commons/3/3e/ACDC_Back_in_Black_cover.svg",
+        "artista": "AC\/DC",
+        "url della cover": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/3e\/ACDC_Back_in_Black_cover.svg",
         "anno di pubblicazione": "1980",
         "genere": "Hard Rock"
     },
     {
         "titolo": "The Bodyguard: Original Soundtrack Album",
         "artista": "Whitney Houston",
-        "url della cover": "https://m.media-amazon.com/images/I/61LQmyHf8BL._SX425_.jpg",
+        "url della cover": "https:\/\/m.media-amazon.com\/images\/I\/61LQmyHf8BL._SX425_.jpg",
         "anno di pubblicazione": "1992",
         "genere": "Soundtrack"
     },
     {
         "titolo": "Rumours",
         "artista": "Fleetwood Mac",
-        "url della cover": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
+        "url della cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/fb\/FMacRumours.PNG",
         "anno di pubblicazione": "1977",
         "genere": "Soft Rock"
+    },
+    {
+        "titolo": "Appetite for Destruction",
+        "artista": "Guns N' Roses",
+        "url della cover": "https:\/\/upload.wikimedia.org\/wikipedia\/it\/0\/06\/Appetite_for_Destruction.jpg",
+        "anno di pubblicazione": "1987",
+        "genere": "Hard rock"
     }
 ]
