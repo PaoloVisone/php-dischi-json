@@ -1,5 +1,10 @@
 <?php
 
-$file_dischi = file_get_contents("./dischi.json");
+function getData()
+{
+    // Recupero il file json
+    $file_dischi = file_get_contents("./dischi.json");
 
-$dischi = json_decode($file_dischi, true);
+    // Decodifico il JSON in un array PHP
+    return  json_decode($file_dischi, true);
+}

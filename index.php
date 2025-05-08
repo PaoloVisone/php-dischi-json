@@ -1,6 +1,8 @@
 <?php
 
-require_once("./functions.php")
+require_once("./functions.php");
+
+$dischi = getData();
 
 ?>
 
@@ -22,20 +24,19 @@ require_once("./functions.php")
 
     <div id="content">
 
-
         <?php
 
         foreach ($dischi as $disco) {
             echo "<div class='card'>
-                        <div class='card-img'>  
-                             <img src='{$disco->{"url della cover"}}' alt='$disco->titolo'>  
-                        </div>
-                        <div class='card-text'>
-                <h2>$disco->titolo</h2>
-                <p>$disco->artista</p>
-                   <p>{$disco->{"anno di pubblicazione"}} - $disco->genere</p> 
-            </div>
-        </div>";
+                <div class='card-img'>  
+                     <img src='{$disco["url della cover"]}' alt='{$disco["titolo"]}'>  
+                </div>
+                <div class='card-text'>
+        <h2>{$disco["titolo"]}</h2>
+        <p>{$disco["artista"]}</p>
+           <p>{$disco["anno di pubblicazione"]} - {$disco["genere"]}</p> 
+    </div>
+</div>";
         }
 
         ?>
